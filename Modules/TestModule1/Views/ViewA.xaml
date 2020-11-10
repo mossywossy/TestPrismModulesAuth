@@ -1,0 +1,12 @@
+﻿<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestModule1.Views.ViewA">
+        <Grid HorizontalOptions="Center" VerticalOptions="Center">
+                            <Label Text="{Binding ModuleTitleLabelText}"
+           HorizontalOptions="CenterAndExpand"
+           VerticalOptions="CenterAndExpand" Grid.Row="0" />
+
+        <Button Command="{Binding NavigationToPageCommand}" Text="Go to my Page" Grid.Row="1"/>
+
+    </Grid>
+    </ContentView>   
